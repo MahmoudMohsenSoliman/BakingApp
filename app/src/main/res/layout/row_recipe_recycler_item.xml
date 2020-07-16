@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:gravity="center"
+    android:layout_gravity="center"
+    >
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/recipe_card"
+        android:minHeight="200dp"
+        app:cardCornerRadius="8dip"
+        style="@style/CardView"
+        app:cardElevation="@dimen/cardview_default_elevation"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="344dp"
+                android:layout_height="194dp"
+                android:layout_gravity="center"
+                android:id="@+id/recipe_img"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recipe_name"
+                style="@style/TextAppearance.AppCompat.Large"
+                android:paddingStart="16dp"
+                android:paddingTop="16dp"
+                android:paddingEnd="0dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/recipe_servings"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle"
+                android:paddingStart="20dp"
+                android:paddingTop="4dp"
+                android:paddingBottom="16dp"
+                android:paddingEnd="0dp"
+                />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BakingApp</string>
+    <string name="no_connection_title">There is no internet connection</string>
+    <string name="no_connection_message">Please, check your internet connection to proceed.</string>
+    <string name="no_connection_snack_bar">No internet connection!</string>
+    <string name="add_to_widget">The ingredients are added to the widget</string>
+    <string name="retry_action_snack_bar">RETRY</string>
+    <string name="ingredients_title">Ingredients :</string>
+    <string name="steps_title">Instructions :</string>
+
+    <string name="next_menu_item">Next recipe</string>
+    <string name="prev_menu_item">Previous recipe</string>
+
+    <string name="next_button_text">Next</string>
+    <string name="prev_button_text">Prev</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
